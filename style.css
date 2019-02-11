@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+background-color: #53F9EF;
+transition: background 0.5s ease;
+font-family: 'Pacifico', cursive;
+
+}
+
+main {
+
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+
+header {
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.intro h1 {
+
+font-size: 40px;
+font-weight: bold;
+line-height: 2em;
+font-family: 'Baloo Bhaina', cursive;
+
+}
+
+.intro p {
+
+	font-size: 25px;
+	font-style: oblique;
+}
+
+.heart {
+
+	font-size: 60px;
+}
+
+.bg-active {
+
+	background-color: #fff;
+}
+
+.hobbies-highlight {
+
+	width: 80%;
+	height: 50%;
+}
+
+ #about-hobbies {
+
+	height: 90vh;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(to right top, #d16ba5, #c378b7, #b385c3, #a590ca, #999acc, #91a5d6, #89b0dd, #83bae2, #71caef, #5cdaf6, #4eeaf6, #53f9ef);
+
+}
+
+#about-hobbies p {
+
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
+
+}
+
+#gym-description, #skiing-description, #friends-description {
+
+	display: none;
+}
+
+
+#gallery {
+
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hobbies-preview {
+
+	display: flex;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hobbies-preview img {
+
+	height: 100px;
+	width: 25%;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.4s ease;
+}
+
+img.hobby-active {
+
+	opacity: 1;
+}
+
+/*Responsive*/
+
+@media (max-width: 750px) {
+
+ header {
+
+ 	margin-bottom: 60px;
+ }
+
+
+  main {
+
+  	flex-direction: column-reverse;
+  	height: 100vh;
+  	justify-content: center;
+  	align-items: center;
+  }	
+
+
+  #gallery {
+
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+ #about-hobbies {
+
+	height: 50vh;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(to right top, #d16ba5, #c378b7, #b385c3, #a590ca, #999acc, #91a5d6, #89b0dd, #83bae2, #71caef, #5cdaf6, #4eeaf6, #53f9ef);
+
+}
+
+#about-hobbies p {
+
+	font-size: 15px;
+	
+}
+
+
+
+}

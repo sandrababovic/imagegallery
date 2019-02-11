@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My hobbies and interests</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,inital-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="intro">
+			<span class="heart"><i class="fas fa-heart"></i></span>
+			<h1>MY HOBBIES</h1>
+			<p>Scroll down to see some of my hobbies :)</p>
+	    </div>		
+	</header>	
+	<main>
+    <section id="about-hobbies">
+    	<div id="music-description">
+    		<h1>Music</h1>
+    		<p>I relax by listening to music. I cannot go a day, without listening to music. <br>
+               I listen to variaty of music genres. Some of my favorites are R&B and pop. 
+            </p>
+    	</div>
+    	<div id="gym-description">
+    		<h1>Working out</h1>
+    		<p>I enjoy going to the gym because it keeps me healthy and fit.<br>
+    		Also, It's sociable, I have met lots of new people.</p>
+    	</div>
+    	<div id="skiing-description">
+    		<h1>Skiing</h1>
+    		<p>I am really into skiing. It is my favorite sport.<br>
+              I go almost every year for skiing and I love the feeling<br>
+          I get as I go down the mountain.</p>
+    	</div>
+    	<div id="friends-description">
+    		<h1>Hanging out with friends</h1>
+    		<p>As a sociable person, it is very important for me to have good friends<br>
+    		 and spend quality time with them. I like going to cafes with friends,<br>
+    		  travel with them, going to concerts etc.
+    	 </p>
+    	</div>
+    	</section>
+    	<section id="gallery">
+    	<div class="hobbies-gallery">
+    		<img src="images/music-big.jpg" class="hobbies-highlight" alt="listening music"/>
+    		<div class="hobbies-preview">
+    			<img src="images/music-small.jpg" class="hobby-active" onclick="changeTextMusic()" alt=""/>
+    			<img src="images/gym-small.jpeg" alt="" onclick="changeTextGym()"/>
+    			<img src="images/skiing-small.jpeg" alt="" onclick="changeTextSkiing()"/>
+    			<img src="images/friends-small.jpeg" alt="" onclick="changeTextFriends()"/>
+    	    </div>		
+    	</div>
+    </section>
+</main>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
