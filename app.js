@@ -22,6 +22,8 @@ function hobbiesGallery(){
 
 hobbiesGallery();
 
+/*Change background color when scroll down*/
+
 function bgChanger() {
    if(this.scrollY > this.innerHeight / 2)
 {
@@ -37,7 +39,7 @@ else {
 window.addEventListener("scroll", bgChanger);
 
 
-// napravi funkciju koja kada se klikne na malu sliku promeni tekst sa strane
+// change hobby description and div color on click
  function changeTextMusic() {
       
             document.getElementById("music-description").style.display="block";
