@@ -152,7 +152,7 @@ img.hobby-active {
 
  #about-hobbies {
 
-	height: 60vh;
+	height: auto;
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -162,12 +162,7 @@ img.hobby-active {
 	background-image: linear-gradient(to right top, #d16ba5, #c378b7, #b385c3, #a590ca, #999acc, #91a5d6, #89b0dd, #83bae2, #71caef, #5cdaf6, #4eeaf6, #53f9ef);
 
 }
-#about-hobbies div {
-
-	max-width: 90%;
-	max-height: 90%;
-}	
-
+	
 #about-hobbies p {
 
 	font-size: 14px;
