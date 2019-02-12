@@ -152,7 +152,7 @@ img.hobby-active {
 
  #about-hobbies {
         padding: 8px;
-	height: auto;
+	height:200px;
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -165,7 +165,7 @@ img.hobby-active {
 	
 #about-hobbies p {
 
-	font-size: 14px;
+	font-size: 11px;
 	
 }
 
