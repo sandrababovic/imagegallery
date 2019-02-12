@@ -151,7 +151,7 @@ img.hobby-active {
 }
 
  #about-hobbies {
-
+        padding: 8px;
 	height: auto;
 	width: 80%;
 	display: flex;
